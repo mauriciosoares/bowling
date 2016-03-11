@@ -7,12 +7,12 @@ export default function generateGameDataLayer(players) {
 
 function generatePlayers(players) {
   return players.map((player, index) => ({
-    frames: getFrames(),
+    frames: generateFrames(),
     name: player
   }));
 }
 
-function getFrames() {
+function generateFrames() {
   const FRAME_LENGTH = 10;
   return Array.apply(null, {length: FRAME_LENGTH})
     .map(() => ({
