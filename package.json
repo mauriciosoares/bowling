@@ -1,0 +1,29 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "A js implementation of the bowling score.",
+  "main": "index.js",
+  "scripts": {
+    "start": "kane"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciosoares/bowling.git"
+  },
+  "keywords": [
+    "bowling",
+    "javascript"
+  ],
+  "author": "Mauricio Soares",
+  "license": "MIT",
+  "arrange": {
+    "entry": "src/index.js",
+    "output": {
+      "path": "bundle",
+      "filename": "bundle.js"
+    }
+  },
+  "devDependencies": {
+    "kane": "0.0.2"
+  }
+}
