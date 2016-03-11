@@ -1,3 +1,7 @@
 import generateDataLayer from './utils/generate-data-layer';
+import Score from './components/score';
 
-console.log(generateDataLayer(['Mauricio', 'Igor']));
+let data = generateDataLayer(['Mauricio', 'Igor']);
+
+const score = new Score(data);
+score.start('#score');
